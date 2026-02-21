@@ -44,7 +44,15 @@
         }
       ],
       "@react-native-voice/voice",
-      "react-native-permissions"
+      [
+        "react-native-permissions",
+        {
+          "iosPermissions": [
+            "Microphone",
+            "SpeechRecognition"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
