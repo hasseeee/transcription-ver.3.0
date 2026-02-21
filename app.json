@@ -57,6 +57,15 @@
             "SpeechRecognition"
           ]
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "useAndroidX": true,
+            "enableJetifier": true
+          }
+        }
       ]
     ],
     "experiments": {
